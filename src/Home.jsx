@@ -1,5 +1,6 @@
 import Herosection from "./Component/Herosection";
 import Contact from "./Contact";
+import Projects from "./Projects";
 import Service from "./Service";
 const Home = () => {
     const data = {
@@ -9,6 +10,7 @@ const Home = () => {
     return (<>
         <Herosection {...data} />
         <Service />
+        <Projects />
         <Contact />
     </>)
 }

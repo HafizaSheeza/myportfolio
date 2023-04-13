@@ -12,6 +12,7 @@ import { ThemeProvider } from 'styled-components';
 import { GlobalStyle } from './GlobalStyle';
 import Error from './Error';
 import Topbutton from './Component/Topbutton';
+import Projects from './Projects';
 
 function App() {
   const theme = {
@@ -46,6 +47,7 @@ function App() {
             <Route exact path='contact' element={<Contact />} />
             <Route exact path='about' element={<About />} />
             <Route exact path='service' element={<Service />} />
+            <Route exact path='projects' element={<Projects />} />
             <Route path='*' element={<Error />} />
           </Routes>
           <Topbutton />

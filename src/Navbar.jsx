@@ -21,6 +21,9 @@ const Navbar = () => {
                     <li>
                         <NavLink onClick={() => setOpenMenu(false)} className="navbar-link" to='/contact'>Contact</NavLink>
                     </li>
+                    <li>
+                        <NavLink onClick={() => setOpenMenu(false)} className="navbar-link" to='/projects'>Project</NavLink>
+                    </li>
                 </ul>
                 <div className="mobile-navbar-btn">
                     <FaAlignJustify
